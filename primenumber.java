@@ -5,7 +5,7 @@ public class primenumber{
        int n=sc.nextInt();
        int count=0;
        for(int i=0;i<=n;i++){
-        if(i%2==0){
+        if(i%2!=0){
             count++;
            }       
          }

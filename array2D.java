@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class array2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[][] arr=new int[3][3];
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int[][] arr=new int[m][n];
          for(int i=0;i<arr.length;i++){
             for(int j=0;j< arr[i].length;j++){
-                 arr[i][j]=sc.nextInt();
+                arr[i][j]=sc.nextInt();
             }
         }
         System.out.print("output"+" ");

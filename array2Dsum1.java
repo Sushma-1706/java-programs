@@ -12,7 +12,7 @@ public class array2Dsum1 {
     }
 for(int i=0;i<arr.length;i++){
     rowsum=0;
-    for(int j = 0;j<arr.length;j++){
+    for(int j = 0;j<arr[i].length;j++){
         rowsum +=arr[i][j];
     }
     System.out.println("Row " + (i + 1) + " sum: " + rowsum);
@@ -20,7 +20,7 @@ for(int i=0;i<arr.length;i++){
 for(int j=0;j<arr.length;j++){
     columsum=0;
     for(int i=0;i<arr.length;i++){
-        columsum=arr[j][i];
+        columsum +=arr[i][j];
     }
     System.out.println("Column " + (j + 1) + " sum: " + columsum);
 }

@@ -1,9 +1,7 @@
-
-    
 import java.util.Scanner;
 
 
-class loops{
+class loop{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int t=in.nextInt();

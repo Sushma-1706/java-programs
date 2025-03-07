@@ -14,7 +14,7 @@ public class array2Dsum {
                 sum+=arr[i][j];
             }
         }
-        System.out.print(sum);
+        System.out.print(sum+"sum");
         sc.close();
     }
 }
